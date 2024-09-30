@@ -1,0 +1,5 @@
+test1
+@page1
+"hello"
+= test = 5
+ = t2 ? yes/no
