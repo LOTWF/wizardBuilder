@@ -1,5 +1,5 @@
 from tkinter import *
-from tkinter import filedialog,messagebox
+from tkinter import Tk,filedialog,messagebox
 import json
 import pdb
 
@@ -48,7 +48,7 @@ class ConfigWizard:
         file.close()
         
     def save_config(self):
-        root = tkinter()
+        root = Tk()
         root.withdraw()
         config_file = filedialog.asksaveasfilename()
         try:
